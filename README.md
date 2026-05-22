@@ -1,5 +1,7 @@
 # Luma AI API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/luma)](https://skills.sh/runapi-ai/luma)
+
 Transform and restyle existing videos with Luma video modification. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Luma through RunAPI.
 
 The canonical agent file is `skills/luma/SKILL.md`.

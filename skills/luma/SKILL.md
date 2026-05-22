@@ -4,6 +4,17 @@ description: Modify videos through RunAPI.ai using the @runapi.ai/luma Node/Type
 documentation: https://runapi.ai/models/luma
 provider_page: https://runapi.ai/providers/luma
 catalog: https://runapi.ai/models
+metadata:
+  openclaw:
+    homepage: https://runapi.ai/models/luma
+    primaryEnv: RUNAPI_API_KEY
+    requires:
+      env:
+      - RUNAPI_API_KEY
+    envVars:
+    - name: RUNAPI_API_KEY
+      required: true
+      description: RunAPI API key from https://runapi.ai/api_keys.
 ---
 # @runapi.ai/luma - RunAPI.ai Luma video modification
 
@@ -19,7 +30,7 @@ npm install @runapi.ai/luma
 
 ```dotenv
 # .env
-RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/settings/api_keys
+RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/api_keys
 ```
 
 ```ts
