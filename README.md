@@ -1,6 +1,23 @@
-# Luma AI API Skill for RunAPI
+<p align="center">
+  <a href="https://github.com/runapi-ai/luma">
+    <h3 align="center">Luma AI API Skill for RunAPI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Install this agent skill, inspect Luma fields, then run jobs through the RunAPI CLI.
+</p>
+
+<p align="center">
+  <a href="https://runapi.ai/models/luma.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/luma"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/luma-sdk"><strong>SDK</strong></a>
+</p>
+
+<div align="center">
 
 [![skills.sh](https://skills.sh/b/runapi-ai/luma)](https://skills.sh/runapi-ai/luma)
+
+</div>
+<br/>
 
 Transform and restyle existing videos with Luma video modification. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Luma through RunAPI.
 
