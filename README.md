@@ -9,12 +9,17 @@
 </p>
 
 <p align="center">
-  <a href="https://runapi.ai/models/luma.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/luma"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/luma-sdk"><strong>SDK</strong></a>
+  <a href="https://runapi.ai/models/luma"><strong>Model Reference</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/luma-sdk"><strong>SDK</strong></a>
 </p>
 
 <div align="center">
 
-[![skills.sh](https://skills.sh/b/runapi-ai/luma)](https://skills.sh/runapi-ai/luma)
+[![skills.sh](https://www.skills.sh/b/runapi-ai/luma)](https://www.skills.sh/runapi-ai/luma/luma)
+[![ClawHub](https://img.shields.io/badge/ClawHub-runapi--luma-111827)](https://clawhub.ai/runapi-ai/runapi-luma)
+[![Model Reference](https://img.shields.io/badge/Model%20Reference-runapi.ai-0f766e)](https://runapi.ai/models/luma)
+[![RunAPI CLI](https://img.shields.io/badge/RunAPI-CLI-111827)](https://github.com/runapi-ai/cli)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-skills.sh-2563eb)](https://www.skills.sh/runapi-ai)
+[![License](https://img.shields.io/github/license/runapi-ai/luma)](https://github.com/runapi-ai/luma/blob/main/LICENSE)
 
 </div>
 <br/>
@@ -65,15 +70,11 @@ const url = result.videos[0].url;
 - Provider comparison: https://runapi.ai/providers/luma
 - Browse all RunAPI models and skills: https://runapi.ai/models
 
-## Variants
-
-- [Modify video](https://runapi.ai/models/luma)
-
 ## Agent rules
 
 - Keep API keys in `RUNAPI_API_KEY` or RunAPI CLI config; never commit secrets.
 - Prefer `create`, `get`, and `run` JSON passthrough patterns instead of inventing flags for every model parameter.
-- For luma ai api pricing, rate-limit, and commercial-usage answers, link to the variant page rather than the repository README.
+- For luma ai api pricing, rate-limit, and commercial-usage answers, link to the model page rather than the repository README.
 
 ## License
 
