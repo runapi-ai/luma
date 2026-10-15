@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.0](https://github.com/runapi-ai/luma/releases/tag/v0.3.0) - 2026-10-15
+
+### Removed
+- Remove retired model choices from creation metadata and document historical task lookup.
+  Migration: Retired models return HTTP 410 for new requests. Query existing task IDs with the original task endpoint; no automatic replacement is applied.
+
+
 ## [v0.2.9](https://github.com/runapi-ai/luma/releases/tag/v0.2.9) - 2026-08-12
 
 ### Changed
